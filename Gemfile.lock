@@ -60,6 +60,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
+    awesome_print (1.9.2)
     bootsnap (1.11.1)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -133,6 +134,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    table_print (1.5.7)
     thor (1.2.1)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
@@ -145,6 +147,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
+  awesome_print
   bootsnap (>= 1.4.4)
   byebug
   listen (~> 3.3)
@@ -152,6 +155,7 @@ DEPENDENCIES
   rails (~> 6.1.6)
   spring
   sqlite3 (~> 1.4)
+  table_print
   tzinfo-data
 
 RUBY VERSION
