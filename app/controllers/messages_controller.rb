@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
     def index 
         messages = Message.all
-        render json: messages
+        render json: messages.to_json(include: :conversation)
     end
 
     def new
