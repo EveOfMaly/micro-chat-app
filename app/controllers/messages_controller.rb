@@ -1,18 +1,18 @@
 class MessagesController < ApplicationController
     def index 
         messages = Message.all
-        render json: messages.to_json(include: :conversation)
+        render json: MessageSerializer.new(messages)
     end
 
     def new
         message = Message.new(message_params)
-        render json: message
+        render json: MessageSerializer.new(message)
     end
 
     def create
         message = Message.create(message_params)
         message.save
-        render json: message
+        render json: MessageSerializer.new(message)
     end
 
     private
