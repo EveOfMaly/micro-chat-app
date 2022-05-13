@@ -1,7 +1,7 @@
 class ConversationsController < ApplicationController
     def index 
         conversations = Conversation.all
-        render json: ConversationSerializer.new(conversations)
+        render json: conversations
     end
 
     def new
@@ -18,7 +18,7 @@ class ConversationsController < ApplicationController
     private
 
     def conversation_params
-        params.require(:conversation).permit(:sender, :recipient)
+        params.require(:conversation).permit(:sender_id, :recipient_id)
     end
 
     

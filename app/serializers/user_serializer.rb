@@ -1,7 +1,5 @@
-class UserSerializer
-  include FastJsonapi::ObjectSerializer
-  attributes :username
-  # has_many :conversations
+class UserSerializer < ActiveModel::Serializer
+  attributes  :id,:username
   has_many :messages
   has_many :received_messages, class_name: "Conversation", foreign_key: "recipient_id"
   has_many :sent_messages, class_name: "Conversation", foreign_key: "sender_id" 

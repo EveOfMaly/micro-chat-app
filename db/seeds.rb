@@ -11,10 +11,14 @@ user1 = User.create(username: "Bobby")
 user2 = User.create(username: "Sally")
 user3 = User.create(username: "Minty")
 
+con1 = Conversation.create(sender_id: user1.id, recipient_id: user2.id)
+con2 = Conversation.create(sender_id: user1.id, recipient_id: user3.id)
+con3 = Conversation.create(sender_id: user1.id, recipient_id: user2.id)
 
-message1 = Message.create(user: user1, conversation: Conversation.create(sender: user1, recipient: user2), content: "First Message")
-message2 = Message.create(user: user1, conversation: Conversation.create(sender: user1, recipient: user2), content: "Second Message")
-message3 = Message.create(user_id: user1, conversation_id: Conversation.create(sender_id: user1, recipient_id: user3), content: "Third Message")
-message4 = Message.create(user: user1, conversation: Conversation.create(sender: user1, recipient: user3), content: "Fourth Message")
-message5 = Message.create(user: user1, conversation: Conversation.create(sender: user2, recipient: user1), content: "Reply")
+
+message1 = Message.create(user_id: user1.id, conversation_id: con1.id , content: "Hi Sally")
+message2 = Message.create(user_id: user2.id, conversation_id: con1.id, content: "Hi Bob")
+message3 = Message.create(user_id: user1.id, conversation_id: con2.id, content: "Hi Minty")
+message4 = Message.create(user_id: user3.id, conversation_id: con2.id, content: "Hi Bob")
+message5 = Message.create(user_id: user1.id, conversation_id: con1.id, content: "Want to buy something")
 

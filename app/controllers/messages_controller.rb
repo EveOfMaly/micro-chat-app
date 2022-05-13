@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
     def index 
         messages = Message.all
-        render json: MessageSerializer.new(messages)
+        render json: messages
     end
 
     def new
@@ -18,6 +18,6 @@ class MessagesController < ApplicationController
     private
 
     def message_params
-        params.require(:message).permit(:user, :conversation, :content)
+        params.require(:message).permit(:user_id, :conversation_id, :content)
     end
 end
