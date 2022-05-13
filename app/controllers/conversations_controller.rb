@@ -1,7 +1,7 @@
 class ConversationsController < ApplicationController
     def index 
         conversations = Conversation.all
-        render json: conversations
+        render json: ConversationSerializer.new(conversations)
     end
 
     def new
