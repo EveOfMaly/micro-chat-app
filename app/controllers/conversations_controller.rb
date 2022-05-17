@@ -10,9 +10,14 @@ class ConversationsController < ApplicationController
     end
 
     def create
-     conversation = Conversation.create(conversation_params)
-     conversation.save
-     render json: ConversationSerializer.new(conversation)
+        if Conversation.find_by(sender_id: conversation_params[:sender_id], recipient_id: conversation_params[:recipient_id])
+            conversation = Conversation.find_by(sender_id: conversation_params[:sender_id], recipient_id: conversation_params[:recipient_id])
+            render json: ConversationSerializer.new(conversation)
+        else 
+            conversation = Conversation.create(conversation_params)
+            conversation.save 
+            render json: ConversationSerializer.new(conversation)
+        end
     end
 
     private
