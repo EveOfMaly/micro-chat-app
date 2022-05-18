@@ -10,9 +10,11 @@ class ConversationsController < ApplicationController
     end
 
     def create
-        if Conversation.find_by(sender_id: conversation_params[:sender_id], recipient_id: conversation_params[:recipient_id])
-            conversation = Conversation.find_by(sender_id: conversation_params[:sender_id], recipient_id: conversation_params[:recipient_id])
-            render json: ConversationSerializer.new(conversation)
+        if Conversation.between(params[:sender_id],params[:recipient_id])
+            .present?
+             conversation = Conversation.between(params[:sender_id],
+              params[:recipient_id]).first
+              render json: ConversationSerializer.new(conversation)
         else 
             conversation = Conversation.create(conversation_params)
             conversation.save 
