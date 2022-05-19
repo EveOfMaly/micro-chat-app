@@ -1,4 +1,9 @@
+<!-- https://share.vidyard.com/watch/xLWD1XRtfmjgZiivQc1ZXT? -->
+
 Domain Model
+
+A user will have many conversations and a conversation will have many messages.
+
 User - 
 - Has many: Conversations
 - Has many: messages
