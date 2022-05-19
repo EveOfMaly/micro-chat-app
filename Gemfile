@@ -35,6 +35,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem "awesome_print"
   gem "table_print"
+  gem 'pry'
 end
 
 group :development do

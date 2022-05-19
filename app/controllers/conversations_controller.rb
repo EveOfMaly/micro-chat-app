@@ -10,7 +10,7 @@ class ConversationsController < ApplicationController
     end
 
     def create
-        if Conversation.between(params[:sender_id],params[:recipient_id])
+        if Conversation.between(conversation_params[:sender_id],conversation_params[:recipient_id])
             .present?
              conversation = Conversation.between(params[:sender_id],
               params[:recipient_id]).first
@@ -22,10 +22,15 @@ class ConversationsController < ApplicationController
         end
     end
 
+    # def show
+    #     conversations = Conversation.all
+    #     render json: ConversationSerializer.new(conversations)
+    # end
+
     private
 
     def conversation_params
-        params.require(:conversation).permit(:sender_id, :recipient_id)
+        params.require(:conversation).permit(:id, :sender_id, :recipient_id)
     end
 
     
