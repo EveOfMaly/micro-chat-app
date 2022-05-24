@@ -110,7 +110,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/home) - John.a.kyeremeh@gmail.com
+Your Name - [@JohnKyeremeh](https://twitter.com/JohnKyeremeh) - John.a.kyeremeh@gmail.com
 
 Project Link: [https://github.com/EveOfMaly/micro-chat-app](https://github.com/EveOfMaly/micro-chat-app)
 
