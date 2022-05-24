@@ -7,9 +7,11 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '*'
+    origins '*'# what the website that we are allowing to make these request to the side 
+               # in development we won't worry about security risk until production
+               # if horuku change * to website.
 
-    resource '*',
+    resource '*',  #routes that we have access to
       headers: :any,
       methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
