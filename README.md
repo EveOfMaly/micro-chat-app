@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/EveOfMaly/micro-chat-app">
-   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" alt="Logo" width="80" height="80">
+   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" 
   </a>
 
 <h3 align="center">Micro Chat App - Backend</h3>
@@ -54,7 +54,7 @@
   Real time chat app build with Javascript & Rails.
 
 [![Product Name Screen Shot][product-screenshot]](<a href="https://github.com/EveOfMaly/micro-chat-app">
-   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" alt="Logo" width="80" height="80">
+   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" 
   </a>)
 
 
