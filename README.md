@@ -50,7 +50,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-  Real time chat app build with Javascript & Rails. Link to front-end: https://github.com/EveOfMaly/micro_chat_app_frontend
+  Real time chat app build with Javascript & Rails. Click the below video for more details:
+
+  Video Link Explainer: https://share.vidyard.com/watch/LxmRfPCPiXLTsNf1eDxG89?
+
+  Link to front-end: https://github.com/EveOfMaly/micro_chat_app_frontend
 
 [![Product Name Screen Shot][product-screenshot]](<a href="https://github.com/EveOfMaly/micro-chat-app">
    <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" 
