@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2022_05_10_191536) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "conversations", force: :cascade do |t|
     t.integer "sender_id"
     t.integer "recipient_id"
