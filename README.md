@@ -1,7 +1,4 @@
 <div id="top"></div>
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -9,10 +6,10 @@
    <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" 
   </a>
 
-<h3 align="center">Micro Chat App - Backend</h3>
+<h3 align="center">Realtime Micro Chat App - Backend</h3>
 
   <p align="center">
-    Real time chat app build with Javascript & Rails. 
+    Simple web-based chat application with jQuery, Vinalla JS, and Ruby on Rails backend. This sort of utility would be perfect for a live support system for your website.
     <br />
     <a href="https://github.com/EveOfMaly/micro-chat-app"><strong>Explore the docs »</strong></a>
     <br />
@@ -69,11 +66,11 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
-1. Copy the repo 
+1. User Creation or Login
+2. User selects a registered user to start a conversation
+3. User messages user
 
 
 
@@ -116,7 +113,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@JohnKyeremeh](https://twitter.com/JohnKyeremeh) - John.a.kyeremeh@gmail.com
 
-Project Link: [https://github.com/EveOfMaly/micro-chat-app](https://github.com/EveOfMaly/micro-chat-app)
+Project Link: 
+[Backend](https://github.com/EveOfMaly/micro-chat-app)
+[Frontend](https://github.com/johnkyeremeh/micro_chat_app_frontend)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
