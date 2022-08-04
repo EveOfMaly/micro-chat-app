@@ -10,9 +10,7 @@
 
   <p align="center">
     Simple web-based chat application with jQuery, Vinalla JS, and Ruby on Rails backend. This sort of utility would be perfect for a live support system for your website.
-
- 
-
+    
     <br />
     <a href="https://github.com/EveOfMaly/micro-chat-app"><strong>Explore the docs »</strong></a>
     <br />
