@@ -10,10 +10,15 @@
 
   <p align="center">
     Simple web-based chat application with jQuery, Vinalla JS, and Ruby on Rails backend. This sort of utility would be perfect for a live support system for your website.
+
+ 
+
     <br />
     <a href="https://github.com/EveOfMaly/micro-chat-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+     <a href="https://johnkyeremeh.github.io/micro_chat_app_frontend/">Live Link</a>
+    ·
     <a href="https://github.com/EveOfMaly/micro-chat-app/issues">Report Bug</a>
     ·
     <a href="https://github.com/EveOfMaly/micro-chat-app/issues">Request Feature</a>
@@ -53,14 +58,13 @@
 
   Link to front-end: https://github.com/EveOfMaly/micro_chat_app_frontend
 
-[Product Name Screen Shot][product-screenshot]](<a href="https://github.com/EveOfMaly/micro-chat-app">
-   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" 
-  </a>)
+[![Product Name Screen Shot][product-screenshot]](<a href="https://github.com/EveOfMaly/micro-chat-app">
+   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a></a>)
 
 
 ### Built With
 
-* [Rails](https://rubyonrails.org/)
+* [Ruby on Rails](https://rubyonrails.org/)
 * [JQuery](https://jquery.com)
 * [Java Script](https://https://www.javascript.com/.com)
 
@@ -72,17 +76,12 @@
 2. User selects a registered user to start a conversation
 3. User messages user
 
-or 
-
-
-
-
+or if in development fork the Projecti and type rails S on backend and open index.html 
 
 
 See the [open issues](https://github.com/EveOfMaly/micro-chat-app/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
