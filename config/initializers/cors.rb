@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://johnkyeremeh.github.io/micro_chat_app_frontend'# what the website that we are allowing to make these request to the side 
+    origins 'https://johnkyeremeh.github.io'# what the website that we are allowing to make these request to the side 
                # in development we won't worry about security risk until production
                # if horuku change * to website.
 
