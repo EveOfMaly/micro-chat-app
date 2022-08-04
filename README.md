@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/EveOfMaly/micro-chat-app">
-   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" 
+   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>
   </a>
 
 <h3 align="center">Realtime Micro Chat App - Backend</h3>
@@ -53,7 +53,7 @@
 
   Link to front-end: https://github.com/EveOfMaly/micro_chat_app_frontend
 
-[![Product Name Screen Shot][product-screenshot]](<a href="https://github.com/EveOfMaly/micro-chat-app">
+[Product Name Screen Shot][product-screenshot]](<a href="https://github.com/EveOfMaly/micro-chat-app">
    <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" 
   </a>)
 
@@ -71,6 +71,10 @@
 1. User Creation or Login
 2. User selects a registered user to start a conversation
 3. User messages user
+
+or 
+
+
 
 
 
