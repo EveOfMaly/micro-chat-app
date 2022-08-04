@@ -17,6 +17,8 @@
     <a href="https://github.com/EveOfMaly/micro-chat-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+    <a href="https://johnkyeremeh.github.io/micro_chat_app_frontend">Live Link</a>
+    ·
     <a href="https://github.com/EveOfMaly/micro-chat-app/issues">Report Bug</a>
     ·
     <a href="https://github.com/EveOfMaly/micro-chat-app/issues">Request Feature</a>
@@ -73,9 +75,11 @@
 
 <!-- GETTING STARTED -->
 ## Getting Started
-1. Copy the repo 
+1. User sign in 
+2. User selects a user to message
+3  User sends a message.
 
-
+or Fork this repo and backend repo and type Rails S for backend and open index.html for frontend. 
 
 
 See the [open issues](https://github.com/EveOfMaly/micro-chat-app/issues) for a full list of proposed features (and known issues).
@@ -117,6 +121,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Your Name - [@JohnKyeremeh](https://twitter.com/JohnKyeremeh) - John.a.kyeremeh@gmail.com
 
 Project Link: [https://github.com/EveOfMaly/micro-chat-app](https://github.com/EveOfMaly/micro-chat-app)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
