@@ -1,16 +1,18 @@
 <div id="top"></div>
+
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/EveOfMaly/micro-chat-app">
-   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>
+   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" 
   </a>
 
-<h3 align="center">Realtime Micro Chat App - Backend</h3>
+<h3 align="center">RealMicro Chat App - Backend</h3>
 
   <p align="center">
     Simple web-based chat application with jQuery, Vinalla JS, and Ruby on Rails backend. This sort of utility would be perfect for a live support system for your website.
-    
     <br />
     <a href="https://github.com/EveOfMaly/micro-chat-app"><strong>Explore the docs »</strong></a>
     <br />
@@ -55,29 +57,31 @@
   Link to front-end: https://github.com/EveOfMaly/micro_chat_app_frontend
 
 [![Product Name Screen Shot][product-screenshot]](<a href="https://github.com/EveOfMaly/micro-chat-app">
-   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a></a>)
+   <img src="https://i.ibb.co/m4DKP9K/Screen-Shot-2022-05-24-at-10-03-12-AM.png" alt="Screen-Shot-2022-05-24-at-10-03-12-AM" border="0"></a>" 
+  </a>)
 
 
 ### Built With
 
-* [Ruby on Rails](https://rubyonrails.org/)
+* [Rails](https://rubyonrails.org/)
 * [JQuery](https://jquery.com)
 * [Java Script](https://https://www.javascript.com/.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
 <!-- GETTING STARTED -->
 ## Getting Started
-1. User Creation or Login
-2. User selects a registered user to start a conversation
-3. User messages user
+1. Copy the repo 
 
-or if in development fork the Projecti and type rails S on backend and open index.html 
+
 
 
 See the [open issues](https://github.com/EveOfMaly/micro-chat-app/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 <!-- CONTRIBUTING -->
@@ -112,9 +116,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@JohnKyeremeh](https://twitter.com/JohnKyeremeh) - John.a.kyeremeh@gmail.com
 
-Project Link: 
-[Backend](https://github.com/EveOfMaly/micro-chat-app)
-[Frontend](https://github.com/johnkyeremeh/micro_chat_app_frontend)
+Project Link: [https://github.com/EveOfMaly/micro-chat-app](https://github.com/EveOfMaly/micro-chat-app)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
