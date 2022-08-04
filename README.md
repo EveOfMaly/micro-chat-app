@@ -17,7 +17,7 @@
     <a href="https://github.com/EveOfMaly/micro-chat-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-     <a href="https://johnkyeremeh.github.io/micro_chat_app_frontend/">Live Link</a>
+     <a href="https://johnkyeremeh.github.io/micro_chat_app_frontend">Live Link</a>
     ·
     <a href="https://github.com/EveOfMaly/micro-chat-app/issues">Report Bug</a>
     ·
